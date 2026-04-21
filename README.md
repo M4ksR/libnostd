@@ -1,6 +1,6 @@
 # libnostd
 
-## Powerful C++ Library for High-Perfomance Computing
+## Powerful C++ Library for High-Performance Computing
 
 <p>
 <img src="https://img.shields.io/github/languages/top/st141283/libnostd">
