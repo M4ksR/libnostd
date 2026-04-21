@@ -1,7 +1,8 @@
 #include <iostream>
-#include "../src/libnostd.hpp"
+#include "libnostd/libnostd.hpp"
 
 int main() {
-    println("libnostd");
-    return 0;
+	println("LIBNOSTD");
+
+	return 0;
 }
