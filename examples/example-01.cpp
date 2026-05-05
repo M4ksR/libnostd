@@ -1,5 +1,5 @@
 #include <iostream>
-#include "libnostd.hpp"
+#include "libnostd/libnostd.hpp"
 
 int main() {
 	println("LIBNOSTD");
