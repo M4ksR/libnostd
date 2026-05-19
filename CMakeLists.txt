@@ -14,3 +14,20 @@ set(CMAKE_CXX_STANDART 20)
 add_subdirectory(examples)
 
 add_subdirectory(tests)
+
+# ---- Declare library ---
+add_library(
+	libnostd
+	src/libnostd.cpp
+	src/math/core.cpp
+	src/math/statistics.cpp
+	src/cs/core.cpp
+	src/core/common.cpp
+)
+
+include(GenerateExportHeader)
+generate_export_header(
+	libnostd
+	BASE_NAME libnostd
+	EXPORT_FILE_NAME export/libnostd/libnostd.hpp
+)

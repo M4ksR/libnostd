@@ -18,8 +18,12 @@ include_directories(../include)
 
 enable_testing()
 
-add_executable(tests test_cs.cpp test_math.cpp ../src/math/core.cpp ../src/cs/core.cpp)
-target_link_libraries(tests GTest::gtest_main)
+add_executable(tests test_cs.cpp test_math.cpp)
+target_link_libraries(
+	tests
+	GTest::gtest_main
+	libnostd
+)
 
 include(GoogleTest)
 gtest_discover_tests(tests)
