@@ -12,6 +12,6 @@
 >
 
 ## Copyright
-libnostd is released used under the [MIT License](https://github.com/M4ksR/l>
+libnostd is released used under the [MIT License](https://github.com/M4ksR/l>)
 
 Copyright (c) 2026 M4ksR. All right reserved.
